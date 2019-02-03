@@ -26,3 +26,8 @@ function prependKitten(name){
   var newkitten = [name,...kittens];
   return newkitten;
 }
+
+function prependKitten(name){
+  var newkitten = kittens.slice();
+  return newkitten;
+}
